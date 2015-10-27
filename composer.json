@@ -1,6 +1,7 @@
 {
   "name": "bluemove/phpgmaps",
   "description": "Bluemove fork from appitventures/phpgmaps",
+  "version": "1.0",
   "authors": [
     {
       "name": "Bluemove fork from appitventures pgpmaps",
