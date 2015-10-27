@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Appitventures\\Phpgmaps\\": "src/"
+      "Bluemove\\Phpgmaps\\": "src/"
     }
   },
   "extra": {

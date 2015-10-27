@@ -1,4 +1,4 @@
-<?php namespace Appitventures\Phpgmaps;
+<?php namespace Bluemove\Phpgmaps;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
