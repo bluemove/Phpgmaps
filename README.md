@@ -19,14 +19,9 @@ Add this package in your `composer.json` and update composer.
 For Laravel 4.\* use the below line. Please be aware that I only have the time to support the latest stable release of Laravel. So any future updates (features, security, or otherwise) will not be applied to the branch for laravel4 compatibility
 
 ```php
-"bluemove/phpgmaps": "1.0.*@dev"
+"bluemove/phpgmaps": "dev-master"
 ```
 
-For Laravel 5.\* use the below line
- 
-```php
-"bluemove/phpgmaps": "2.0.*@dev"
-```
 
 After updating composer, add the ServiceProvider to the providers array in `app/config/app.php`
 
