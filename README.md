@@ -7,10 +7,10 @@ I found this library to be incredibly useful when I was working in CodeIgniter. 
 
 ---
 
-[![Latest Stable Version](https://poser.pugx.org/appitventures/phpgmaps/v/stable.svg)](https://packagist.org/packages/appitventures/phpgmaps)
-[![Total Downloads](https://poser.pugx.org/appitventures/phpgmaps/downloads.svg)](https://packagist.org/packages/appitventures/phpgmaps)
-[![Monthly Downloads](https://poser.pugx.org/appitventures/phpgmaps/d/monthly.png)](https://packagist.org/packages/appitventures/phpgmaps)
-[![License](https://poser.pugx.org/appitventures/phpgmaps/license.svg)](https://packagist.org/packages/appitventures/phpgmaps)
+[![Latest Stable Version](https://poser.pugx.org/appitventures/phpgmaps/v/stable.svg)](https://packagist.org/packages/bluemove/phpgmaps)
+[![Total Downloads](https://poser.pugx.org/appitventures/phpgmaps/downloads.svg)](https://packagist.org/packages/bluemove/phpgmaps)
+[![Monthly Downloads](https://poser.pugx.org/appitventures/phpgmaps/d/monthly.png)](https://packagist.org/packages/bluemove/phpgmaps)
+[![License](https://poser.pugx.org/appitventures/phpgmaps/license.svg)](https://packagist.org/packages/bluemove/phpgmaps)
 
 #Installation
 
@@ -19,25 +19,25 @@ Add this package in your `composer.json` and update composer.
 For Laravel 4.\* use the below line. Please be aware that I only have the time to support the latest stable release of Laravel. So any future updates (features, security, or otherwise) will not be applied to the branch for laravel4 compatibility
 
 ```php
-"appitventures/phpgmaps": "1.0.*@dev"
+"bluemove/phpgmaps": "1.0.*@dev"
 ```
 
 For Laravel 5.\* use the below line
  
 ```php
-"appitventures/phpgmaps": "2.0.*@dev"
+"bluemove/phpgmaps": "2.0.*@dev"
 ```
 
 After updating composer, add the ServiceProvider to the providers array in `app/config/app.php`
 
 ```php
-'Appitventures\Phpgmaps\PhpgmapsServiceProvider',
+'bluemove\Phpgmaps\PhpgmapsServiceProvider',
 ```
 
 And the Facade
 
 ```php
-'Gmaps' => 'Appitventures\Phpgmaps\Facades\Phpgmaps',
+'Gmaps' => 'bluemove\Phpgmaps\Facades\Phpgmaps',
 ```
 
 ### Example 
@@ -65,5 +65,3 @@ The following code will prompt the user for access to their geolocation and then
         echo "<html><head><script type="text/javascript">var centreGot = false;</script>".$map['js']."</head><body>".$map['html']."</body></html>";
     });
 
-### More Examples
-BIOINSTALL has a great website showing how to do all the things with the class. No reason to reinvent the wheel, so [here](http://biostall.com/demos/google-maps-v3-api-codeigniter-library/) it is. The only thing to note is that `$this->googlemaps` is now `Gmaps::`.
