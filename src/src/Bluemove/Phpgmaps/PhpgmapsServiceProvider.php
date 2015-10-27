@@ -19,7 +19,7 @@ class PhpgmapsServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('appitventures/phpgmaps');
+		$this->package('Bluemove/phpgmaps');
 	}
 
 	/**
@@ -32,7 +32,7 @@ class PhpgmapsServiceProvider extends ServiceProvider {
         $this->app->booting(function()
         {
             $loader = AliasLoader::getInstance();
-            $loader->alias('Gmaps', 'Appitventures\Phpgmaps\Facades\Phpgmaps');
+            $loader->alias('Gmaps', 'Bluemove\Phpgmaps\Facades\Phpgmaps');
         });
 		$this->app['phpgmaps'] = $this->app->share(function($app){
             return new Phpgmaps();
