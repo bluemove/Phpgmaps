@@ -1,6 +1,6 @@
 {
   "name": "bluemove/phpgmaps",
-  "description": "",
+  "description": "Bluemove fork from appitventures/phpgmaps",
   "authors": [
     {
       "name": "Bluemove fork from appitventures pgpmaps",
@@ -19,7 +19,7 @@
   "extra": {
     "branch-alias": {
       "dev-laravel4": "1.0-dev",
-      "dev-develop": "1.1-dev",
+      "dev-develop": "1.0-dev",
       "dev-master": "1.0-dev"
     }
   },
