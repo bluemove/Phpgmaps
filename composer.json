@@ -1,10 +1,10 @@
 {
-  "name": "appitventures/phpgmaps",
+  "name": "bluemove/phpgmaps",
   "description": "",
   "authors": [
     {
-      "name": "Appit Ventures",
-      "email": "michael@appitventures.com"
+      "name": "Bluemove fork from appitventures pgpmaps",
+      "email": "webmaster@bluemove.es"
     }
   ],
   "require": {
