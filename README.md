@@ -11,6 +11,7 @@ I found this library to be incredibly useful when I was working in CodeIgniter. 
 [![Total Downloads](https://poser.pugx.org/appitventures/phpgmaps/downloads.svg)](https://packagist.org/packages/bluemove/phpgmaps)
 [![Monthly Downloads](https://poser.pugx.org/appitventures/phpgmaps/d/monthly.png)](https://packagist.org/packages/bluemove/phpgmaps)
 [![License](https://poser.pugx.org/appitventures/phpgmaps/license.svg)](https://packagist.org/packages/bluemove/phpgmaps)
+[![StyleCI](https://styleci.io/repos/45033180/shield)](https://styleci.io/repos/45033180)
 
 #Installation
 
